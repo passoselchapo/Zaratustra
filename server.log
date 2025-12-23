@@ -1,0 +1,20 @@
+INFO:     Will watch for changes in these directories: ['/content/Zaratustra']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [7548] using WatchFiles
+INFO:     Started server process [7563]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:40338 - "POST /chat HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:41936 - "POST /chat HTTP/1.1" 422 Unprocessable Entity
+Error calling Gemini API: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:47780 - "POST /chat HTTP/1.1" 200 OK
+Error calling Gemini API: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:54594 - "POST /chat HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/agent.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7563]
+INFO:     Started server process [8949]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

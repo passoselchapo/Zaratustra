@@ -1,0 +1,6 @@
+
+fastapi==0.111.0
+SQLAlchemy==2.0.30
+uvicorn[standard]==0.29.0
+google-generativeai==0.6.0
+pydantic==2.7.1
